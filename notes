@@ -1,0 +1,38 @@
+tcp/http
+
+client - server model
+
+rest API
+	representational state transfer
+	restful web service, simple, standardized, scalable, stateless, high performance(supports caching)
+
+	icecream.com/api/flavors
+	api - api endbpoint
+	flavors - resource
+
+	CRUD - create, read, update, delete
+	REST API equivalent are http methods
+
+	create - post
+	read - get
+	update - put
+	delete - delete
+
+tcp is underlying protocol, anything else must be specified
+
+RFC - request for comment
+
+65535 tcp ports
+ports
+	0 - 65536 2^16
+
+	ssh - 22
+	dns - 53
+	http - 80
+	https - 443
+
+writing http server
+	1- handler (server)
+
+	function to make sure server is running, ex. health
+	listener - listens to a service on a port
